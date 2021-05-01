@@ -2,7 +2,7 @@ from urllib.request import Request, urlopen
 import json
 import os
 
-save_folder = 'date/without_mask/'
+save_folder = 'data/without_mask/'
 api_url = 'https://api.github.com/repos/prajnasb/observations/contents/experiements/data/without_mask?ref=master'
 
 headers = {'User-Agent': 'Mozilla/5.0'}
