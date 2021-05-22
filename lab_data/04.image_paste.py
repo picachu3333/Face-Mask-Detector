@@ -3,9 +3,9 @@
 import face_recognition
 from PIL import Image, ImageDraw
 
-image_path = 'data/without_mask/0.jpg'
-face_image_path = 'data/without_mask/0.jpg'
-mask_image_path = 'data/mask.png'
+image_path = '../data/without_mask/0.jpg'
+face_image_path = '../data/without_mask/0.jpg'
+mask_image_path = '../data/mask.png'
 
 face_image_np = face_recognition.load_image_file(image_path)
 face_image_np = face_recognition.load_image_file(face_image_path)

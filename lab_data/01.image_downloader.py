@@ -20,10 +20,10 @@ for i in range(len(contents)):
     response = urlopen(request)
     data = response.read()
 
-    if not os.path.exists('data'):
-        os.mkdir('data')
-    if not os.path.exists('data/without_mask'):
-        os.mkdir('data/without_mask')
+    if not os.path.exists('../data'):
+        os.mkdir('../data')
+    if not os.path.exists('../data/without_mask'):
+        os.mkdir('../data/without_mask')
 
     file = open(save_folder + content['name'], 'wb')
     file.write(data)
