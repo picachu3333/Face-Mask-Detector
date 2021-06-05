@@ -159,7 +159,7 @@ def mask_processing(face_image_file_name):
         # 마스크 위치 계산
         center_x = (face_landmark['nose_bridge'][1][0] + face_landmark['chin'][8][0]) // 2
         center_y = (face_landmark['nose_bridge'][1][1] + face_landmark['chin'][8][1]) // 2
-        
+
 
     # 결과 이미지 반환
     return face_image, face_count
